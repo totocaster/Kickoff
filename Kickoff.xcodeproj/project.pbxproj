@@ -11,7 +11,7 @@
 		9987D20020216EA30082086E /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D1FF20216EA30082086E /* Url.swift */; };
 		9987D20220216EDB0082086E /* UIVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20120216EDB0082086E /* UIVIew.swift */; };
 		9987D20420216F190082086E /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20320216F190082086E /* UIFont.swift */; };
-		9987D20620216F570082086E /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20520216F570082086E /* Error.swift */; };
+		9987D20620216F570082086E /* NSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20520216F570082086E /* NSError.swift */; };
 		9987D20820216F990082086E /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20720216F990082086E /* UIScreen.swift */; };
 		9987D20A20216FE00082086E /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20920216FE00082086E /* Bundle.swift */; };
 		9987D20C202170F70082086E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20B202170F70082086E /* UIColor.swift */; };
@@ -28,7 +28,7 @@
 		9987D1FF20216EA30082086E /* Url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
 		9987D20120216EDB0082086E /* UIVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIew.swift; sourceTree = "<group>"; };
 		9987D20320216F190082086E /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
-		9987D20520216F570082086E /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		9987D20520216F570082086E /* NSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSError.swift; sourceTree = "<group>"; };
 		9987D20720216F990082086E /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
 		9987D20920216FE00082086E /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		9987D20B202170F70082086E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 			children = (
 				99F9FBE420216C24001AE409 /* Bool.swift */,
 				9987D1FF20216EA30082086E /* Url.swift */,
-				9987D20520216F570082086E /* Error.swift */,
+				9987D20520216F570082086E /* NSError.swift */,
 				9987D20920216FE00082086E /* Bundle.swift */,
 				994931B720216BC200A5A8F0 /* Kickoff.h */,
 				994931B820216BC200A5A8F0 /* Info.plist */,
@@ -225,7 +225,7 @@
 			files = (
 				99F9FBE520216C24001AE409 /* Bool.swift in Sources */,
 				9987D20A20216FE00082086E /* Bundle.swift in Sources */,
-				9987D20620216F570082086E /* Error.swift in Sources */,
+				9987D20620216F570082086E /* NSError.swift in Sources */,
 				9987D20020216EA30082086E /* Url.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
