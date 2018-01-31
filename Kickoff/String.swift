@@ -1,6 +1,7 @@
 import Foundation
 
 public extension String {
+    
     public var isValidEmail: Bool {
         let pattern = "[a-zA-Z0-9\\+\\.\\_\\%\\-\\+]{1,256}\\@" +
             "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,64}(\\." +
