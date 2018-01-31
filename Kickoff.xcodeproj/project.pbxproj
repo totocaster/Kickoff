@@ -17,6 +17,7 @@
 		9987D20C202170F70082086E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20B202170F70082086E /* UIColor.swift */; };
 		9987D20E2021727A0082086E /* UIAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20D2021727A0082086E /* UIAlertAction.swift */; };
 		9987D210202172C10082086E /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20F202172C10082086E /* UIAlertController.swift */; };
+		9987D212202177B50082086E /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D211202177B50082086E /* Array.swift */; };
 		99F9FBDF20216BFE001AE409 /* KickoffUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F9FBDD20216BFE001AE409 /* KickoffUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99F9FBE520216C24001AE409 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9FBE420216C24001AE409 /* Bool.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		9987D20B202170F70082086E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		9987D20D2021727A0082086E /* UIAlertAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertAction.swift; sourceTree = "<group>"; };
 		9987D20F202172C10082086E /* UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
+		9987D211202177B50082086E /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		99F9FBDB20216BFE001AE409 /* KickoffUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KickoffUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F9FBDD20216BFE001AE409 /* KickoffUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KickoffUI.h; sourceTree = "<group>"; };
 		99F9FBDE20216BFE001AE409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		994931B620216BC200A5A8F0 /* Kickoff */ = {
 			isa = PBXGroup;
 			children = (
+				9987D211202177B50082086E /* Array.swift */,
 				99F9FBE420216C24001AE409 /* Bool.swift */,
 				9987D1FF20216EA30082086E /* Url.swift */,
 				9987D20520216F570082086E /* NSError.swift */,
@@ -224,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99F9FBE520216C24001AE409 /* Bool.swift in Sources */,
+				9987D212202177B50082086E /* Array.swift in Sources */,
 				9987D20A20216FE00082086E /* Bundle.swift in Sources */,
 				9987D20620216F570082086E /* NSError.swift in Sources */,
 				9987D20020216EA30082086E /* Url.swift in Sources */,
