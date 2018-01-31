@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		994931B920216BC200A5A8F0 /* Kickoff.h in Headers */ = {isa = PBXBuildFile; fileRef = 994931B720216BC200A5A8F0 /* Kickoff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9987D20020216EA30082086E /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D1FF20216EA30082086E /* Url.swift */; };
+		9987D20220216EDB0082086E /* UIVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20120216EDB0082086E /* UIVIew.swift */; };
+		9987D20420216F190082086E /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20320216F190082086E /* UIFont.swift */; };
+		9987D20620216F570082086E /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20520216F570082086E /* Error.swift */; };
+		9987D20820216F990082086E /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20720216F990082086E /* UIScreen.swift */; };
+		9987D20A20216FE00082086E /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20920216FE00082086E /* Bundle.swift */; };
 		99F9FBDF20216BFE001AE409 /* KickoffUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F9FBDD20216BFE001AE409 /* KickoffUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99F9FBE520216C24001AE409 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9FBE420216C24001AE409 /* Bool.swift */; };
 /* End PBXBuildFile section */
@@ -16,6 +22,12 @@
 		994931B420216BC200A5A8F0 /* Kickoff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kickoff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		994931B720216BC200A5A8F0 /* Kickoff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kickoff.h; sourceTree = "<group>"; };
 		994931B820216BC200A5A8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9987D1FF20216EA30082086E /* Url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
+		9987D20120216EDB0082086E /* UIVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIew.swift; sourceTree = "<group>"; };
+		9987D20320216F190082086E /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		9987D20520216F570082086E /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		9987D20720216F990082086E /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
+		9987D20920216FE00082086E /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		99F9FBDB20216BFE001AE409 /* KickoffUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KickoffUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F9FBDD20216BFE001AE409 /* KickoffUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KickoffUI.h; sourceTree = "<group>"; };
 		99F9FBDE20216BFE001AE409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +73,10 @@
 		994931B620216BC200A5A8F0 /* Kickoff */ = {
 			isa = PBXGroup;
 			children = (
-				99F9FBE320216C0B001AE409 /* Extensions */,
+				99F9FBE420216C24001AE409 /* Bool.swift */,
+				9987D1FF20216EA30082086E /* Url.swift */,
+				9987D20520216F570082086E /* Error.swift */,
+				9987D20920216FE00082086E /* Bundle.swift */,
 				994931B720216BC200A5A8F0 /* Kickoff.h */,
 				994931B820216BC200A5A8F0 /* Info.plist */,
 			);
@@ -73,16 +88,11 @@
 			children = (
 				99F9FBDD20216BFE001AE409 /* KickoffUI.h */,
 				99F9FBDE20216BFE001AE409 /* Info.plist */,
+				9987D20120216EDB0082086E /* UIVIew.swift */,
+				9987D20320216F190082086E /* UIFont.swift */,
+				9987D20720216F990082086E /* UIScreen.swift */,
 			);
 			path = KickoffUI;
-			sourceTree = "<group>";
-		};
-		99F9FBE320216C0B001AE409 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				99F9FBE420216C24001AE409 /* Bool.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +169,7 @@
 					};
 					99F9FBDA20216BFE001AE409 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -204,6 +215,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				99F9FBE520216C24001AE409 /* Bool.swift in Sources */,
+				9987D20A20216FE00082086E /* Bundle.swift in Sources */,
+				9987D20620216F570082086E /* Error.swift in Sources */,
+				9987D20020216EA30082086E /* Url.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9987D20420216F190082086E /* UIFont.swift in Sources */,
+				9987D20820216F990082086E /* UIScreen.swift in Sources */,
+				9987D20220216EDB0082086E /* UIVIew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +395,7 @@
 		99F9FBE020216BFE001AE409 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +409,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tototvalavadze.KickoffUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -399,6 +418,7 @@
 		99F9FBE120216BFE001AE409 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
