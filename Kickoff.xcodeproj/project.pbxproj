@@ -21,6 +21,24 @@
 		9987D214202179490082086E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D213202179490082086E /* String.swift */; };
 		9987D21620217B810082086E /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D21520217B810082086E /* Optional.swift */; };
 		99D9EFCA20254C8D00149A1F /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D9EFC920254C8D00149A1F /* Int.swift */; };
+		99D9EFD42025688400149A1F /* Kickoff_Watch.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D9EFD22025688400149A1F /* Kickoff_Watch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99D9EFD82025689400149A1F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D211202177B50082086E /* Array.swift */; };
+		99D9EFD92025689400149A1F /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9FBE420216C24001AE409 /* Bool.swift */; };
+		99D9EFDA2025689400149A1F /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20920216FE00082086E /* Bundle.swift */; };
+		99D9EFDB2025689400149A1F /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D9EFC920254C8D00149A1F /* Int.swift */; };
+		99D9EFDC2025689400149A1F /* NSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20520216F570082086E /* NSError.swift */; };
+		99D9EFDD2025689400149A1F /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D21520217B810082086E /* Optional.swift */; };
+		99D9EFDE2025689400149A1F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D213202179490082086E /* String.swift */; };
+		99D9EFDF2025689400149A1F /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D1FF20216EA30082086E /* Url.swift */; };
+		99D9EFE9202568D000149A1F /* Kickoff_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D9EFE7202568D000149A1F /* Kickoff_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99D9EFED202568D800149A1F /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D211202177B50082086E /* Array.swift */; };
+		99D9EFEE202568D800149A1F /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9FBE420216C24001AE409 /* Bool.swift */; };
+		99D9EFEF202568D800149A1F /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20920216FE00082086E /* Bundle.swift */; };
+		99D9EFF0202568D800149A1F /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D9EFC920254C8D00149A1F /* Int.swift */; };
+		99D9EFF1202568D800149A1F /* NSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20520216F570082086E /* NSError.swift */; };
+		99D9EFF2202568D800149A1F /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D21520217B810082086E /* Optional.swift */; };
+		99D9EFF3202568D800149A1F /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D213202179490082086E /* String.swift */; };
+		99D9EFF4202568D800149A1F /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D1FF20216EA30082086E /* Url.swift */; };
 		99F9FBDF20216BFE001AE409 /* KickoffUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F9FBDD20216BFE001AE409 /* KickoffUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99F9FBE520216C24001AE409 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9FBE420216C24001AE409 /* Bool.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +60,12 @@
 		9987D213202179490082086E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		9987D21520217B810082086E /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 		99D9EFC920254C8D00149A1F /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		99D9EFD02025688400149A1F /* Kickoff_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kickoff_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D9EFD22025688400149A1F /* Kickoff_Watch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kickoff_Watch.h; sourceTree = "<group>"; };
+		99D9EFD32025688400149A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D9EFE5202568D000149A1F /* Kickoff_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kickoff_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D9EFE7202568D000149A1F /* Kickoff_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kickoff_tvOS.h; sourceTree = "<group>"; };
+		99D9EFE8202568D000149A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99F9FBDB20216BFE001AE409 /* KickoffUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KickoffUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F9FBDD20216BFE001AE409 /* KickoffUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KickoffUI.h; sourceTree = "<group>"; };
 		99F9FBDE20216BFE001AE409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +74,20 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		994931B020216BC200A5A8F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D9EFCC2025688400149A1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D9EFE1202568D000149A1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,6 +109,8 @@
 			children = (
 				994931B620216BC200A5A8F0 /* Kickoff */,
 				99F9FBDC20216BFE001AE409 /* KickoffUI */,
+				99D9EFD12025688400149A1F /* Kickoff Watch */,
+				99D9EFE6202568D000149A1F /* Kickoff tvOS */,
 				994931B520216BC200A5A8F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,6 +120,8 @@
 			children = (
 				994931B420216BC200A5A8F0 /* Kickoff.framework */,
 				99F9FBDB20216BFE001AE409 /* KickoffUI.framework */,
+				99D9EFD02025688400149A1F /* Kickoff_watchOS.framework */,
+				99D9EFE5202568D000149A1F /* Kickoff_tvOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +141,24 @@
 				994931B820216BC200A5A8F0 /* Info.plist */,
 			);
 			path = Kickoff;
+			sourceTree = "<group>";
+		};
+		99D9EFD12025688400149A1F /* Kickoff Watch */ = {
+			isa = PBXGroup;
+			children = (
+				99D9EFD22025688400149A1F /* Kickoff_Watch.h */,
+				99D9EFD32025688400149A1F /* Info.plist */,
+			);
+			path = "Kickoff Watch";
+			sourceTree = "<group>";
+		};
+		99D9EFE6202568D000149A1F /* Kickoff tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				99D9EFE7202568D000149A1F /* Kickoff_tvOS.h */,
+				99D9EFE8202568D000149A1F /* Info.plist */,
+			);
+			path = "Kickoff tvOS";
 			sourceTree = "<group>";
 		};
 		99F9FBDC20216BFE001AE409 /* KickoffUI */ = {
@@ -124,6 +184,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				994931B920216BC200A5A8F0 /* Kickoff.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D9EFCD2025688400149A1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D9EFD42025688400149A1F /* Kickoff_Watch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D9EFE2202568D000149A1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D9EFE9202568D000149A1F /* Kickoff_tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +230,42 @@
 			name = Kickoff;
 			productName = Kickoff;
 			productReference = 994931B420216BC200A5A8F0 /* Kickoff.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99D9EFCF2025688400149A1F /* Kickoff watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D9EFD52025688400149A1F /* Build configuration list for PBXNativeTarget "Kickoff watchOS" */;
+			buildPhases = (
+				99D9EFCB2025688400149A1F /* Sources */,
+				99D9EFCC2025688400149A1F /* Frameworks */,
+				99D9EFCD2025688400149A1F /* Headers */,
+				99D9EFCE2025688400149A1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kickoff watchOS";
+			productName = "Kickoff Watch";
+			productReference = 99D9EFD02025688400149A1F /* Kickoff_watchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99D9EFE4202568D000149A1F /* Kickoff tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99D9EFEA202568D000149A1F /* Build configuration list for PBXNativeTarget "Kickoff tvOS" */;
+			buildPhases = (
+				99D9EFE0202568D000149A1F /* Sources */,
+				99D9EFE1202568D000149A1F /* Frameworks */,
+				99D9EFE2202568D000149A1F /* Headers */,
+				99D9EFE3202568D000149A1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kickoff tvOS";
+			productName = "Kickoff tvOS";
+			productReference = 99D9EFE5202568D000149A1F /* Kickoff_tvOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		99F9FBDA20216BFE001AE409 /* KickoffUI */ = {
@@ -188,6 +300,14 @@
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
+					99D9EFCF2025688400149A1F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					99D9EFE4202568D000149A1F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					99F9FBDA20216BFE001AE409 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
@@ -208,6 +328,8 @@
 			projectRoot = "";
 			targets = (
 				994931B320216BC200A5A8F0 /* Kickoff */,
+				99D9EFCF2025688400149A1F /* Kickoff watchOS */,
+				99D9EFE4202568D000149A1F /* Kickoff tvOS */,
 				99F9FBDA20216BFE001AE409 /* KickoffUI */,
 			);
 		};
@@ -215,6 +337,20 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		994931B220216BC200A5A8F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D9EFCE2025688400149A1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D9EFE3202568D000149A1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -243,6 +379,36 @@
 				9987D20620216F570082086E /* NSError.swift in Sources */,
 				9987D20020216EA30082086E /* Url.swift in Sources */,
 				99D9EFCA20254C8D00149A1F /* Int.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D9EFCB2025688400149A1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D9EFD82025689400149A1F /* Array.swift in Sources */,
+				99D9EFDA2025689400149A1F /* Bundle.swift in Sources */,
+				99D9EFD92025689400149A1F /* Bool.swift in Sources */,
+				99D9EFDB2025689400149A1F /* Int.swift in Sources */,
+				99D9EFDE2025689400149A1F /* String.swift in Sources */,
+				99D9EFDC2025689400149A1F /* NSError.swift in Sources */,
+				99D9EFDD2025689400149A1F /* Optional.swift in Sources */,
+				99D9EFDF2025689400149A1F /* Url.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D9EFE0202568D000149A1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D9EFED202568D800149A1F /* Array.swift in Sources */,
+				99D9EFEF202568D800149A1F /* Bundle.swift in Sources */,
+				99D9EFEE202568D800149A1F /* Bool.swift in Sources */,
+				99D9EFF0202568D800149A1F /* Int.swift in Sources */,
+				99D9EFF3202568D800149A1F /* String.swift in Sources */,
+				99D9EFF1202568D800149A1F /* NSError.swift in Sources */,
+				99D9EFF2202568D800149A1F /* Optional.swift in Sources */,
+				99D9EFF4202568D800149A1F /* Url.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +586,100 @@
 			};
 			name = Release;
 		};
+		99D9EFD62025688400149A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HCKE9T3AHJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Kickoff Watch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tototvalavadze.Kickoff-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		99D9EFD72025688400149A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HCKE9T3AHJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Kickoff Watch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tototvalavadze.Kickoff-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		99D9EFEB202568D000149A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HCKE9T3AHJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Kickoff tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tototvalavadze.Kickoff-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		99D9EFEC202568D000149A1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = HCKE9T3AHJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Kickoff tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tototvalavadze.Kickoff-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
 		99F9FBE020216BFE001AE409 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -482,6 +742,24 @@
 			buildConfigurations = (
 				994931BD20216BC200A5A8F0 /* Debug */,
 				994931BE20216BC200A5A8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D9EFD52025688400149A1F /* Build configuration list for PBXNativeTarget "Kickoff watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D9EFD62025688400149A1F /* Debug */,
+				99D9EFD72025688400149A1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99D9EFEA202568D000149A1F /* Build configuration list for PBXNativeTarget "Kickoff tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99D9EFEB202568D000149A1F /* Debug */,
+				99D9EFEC202568D000149A1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
