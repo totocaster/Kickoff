@@ -30,6 +30,24 @@ public extension UIColor {
         self.init(red: resultRed, green: resultGreen, blue: resultBlue, alpha: 1.0)
     }
 
+
+    public convenience init(contrastingTextColorFor backgroundColor: UIColor) {
+
+        // Extract background color components
+        let r = backgroundColor.cgColor.components![0]
+        let g = backgroundColor.cgColor.components![1]
+        let b = backgroundColor.cgColor.components![2]
+
+        // Counting the perceptive luminance - human eye favors green color...
+        let luma = 1 - (0.299 * r + 0.587 * g + 0.114 * b)/255
+
+        if luma < 0.5 {
+            self.init(white: 0.0, alpha: 0.0)
+        } else {
+            self.init(white: 1.0, alpha: 0.0)
+        }
+    }
+
     /// Hexadecimal string representation of the color.
     /// Returned string does not include `#` or `0x` prefix.
     public var hexString: String {
