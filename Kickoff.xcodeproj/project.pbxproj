@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		994931B920216BC200A5A8F0 /* Kickoff.h in Headers */ = {isa = PBXBuildFile; fileRef = 994931B720216BC200A5A8F0 /* Kickoff.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9987D20020216EA30082086E /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D1FF20216EA30082086E /* Url.swift */; };
-		9987D20220216EDB0082086E /* UIVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20120216EDB0082086E /* UIVIew.swift */; };
+		9987D20220216EDB0082086E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20120216EDB0082086E /* UIView.swift */; };
 		9987D20420216F190082086E /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20320216F190082086E /* UIFont.swift */; };
 		9987D20620216F570082086E /* NSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20520216F570082086E /* NSError.swift */; };
 		9987D20820216F990082086E /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987D20720216F990082086E /* UIScreen.swift */; };
@@ -29,7 +29,7 @@
 		994931B720216BC200A5A8F0 /* Kickoff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kickoff.h; sourceTree = "<group>"; };
 		994931B820216BC200A5A8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9987D1FF20216EA30082086E /* Url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
-		9987D20120216EDB0082086E /* UIVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIew.swift; sourceTree = "<group>"; };
+		9987D20120216EDB0082086E /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		9987D20320216F190082086E /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		9987D20520216F570082086E /* NSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSError.swift; sourceTree = "<group>"; };
 		9987D20720216F990082086E /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
@@ -103,12 +103,12 @@
 			children = (
 				99F9FBDD20216BFE001AE409 /* KickoffUI.h */,
 				99F9FBDE20216BFE001AE409 /* Info.plist */,
-				9987D20120216EDB0082086E /* UIVIew.swift */,
-				9987D20320216F190082086E /* UIFont.swift */,
-				9987D20720216F990082086E /* UIScreen.swift */,
-				9987D20B202170F70082086E /* UIColor.swift */,
 				9987D20D2021727A0082086E /* UIAlertAction.swift */,
 				9987D20F202172C10082086E /* UIAlertController.swift */,
+				9987D20B202170F70082086E /* UIColor.swift */,
+				9987D20320216F190082086E /* UIFont.swift */,
+				9987D20120216EDB0082086E /* UIView.swift */,
+				9987D20720216F990082086E /* UIScreen.swift */,
 			);
 			path = KickoffUI;
 			sourceTree = "<group>";
@@ -251,7 +251,7 @@
 				9987D20820216F990082086E /* UIScreen.swift in Sources */,
 				9987D20E2021727A0082086E /* UIAlertAction.swift in Sources */,
 				9987D210202172C10082086E /* UIAlertController.swift in Sources */,
-				9987D20220216EDB0082086E /* UIVIew.swift in Sources */,
+				9987D20220216EDB0082086E /* UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
