@@ -39,7 +39,7 @@ public extension UIColor {
         let b = backgroundColor.cgColor.components![2]
 
         // Counting the perceptive luminance - human eye favors green color...
-        let luma = 1 - (0.299 * r + 0.587 * g + 0.114 * b)/255
+        let luma = 1 - (0.299 * r + 0.587 * g + 0.114 * b) / 255.0
 
         if luma < 0.5 {
             self.init(white: 0.0, alpha: 0.0)
